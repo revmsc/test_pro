@@ -1,6 +1,6 @@
 amount = int(input("Enter Your amount:"))
-if amount >= 10000:
-    interest = amount*10/100
+if amount >= 20000:
+    interest = amount*15/100
     print("Your interest amount is" + " " +str(interest))
 elif amount >= 7000:
     interest=amount*7/100
